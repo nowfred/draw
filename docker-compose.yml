@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  draw:
+    build: .
+    network_mode: "host"
+    ports:
+      - "9002:9002"
